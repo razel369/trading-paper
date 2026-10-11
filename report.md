@@ -1,5 +1,5 @@
 # Paper trading — signal for the close of 2026-10-09
-_Generated 2026-10-11 14:01 New York time. Research only, not investment advice._
+_Generated 2026-10-11 14:07 New York time. Research only, not investment advice._
 
 ## Tonight's orders (buy MOC at the close, sell overnight legs MOO at the next open)
 
