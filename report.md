@@ -1,5 +1,5 @@
 # Paper trading — signal for the close of 2026-10-09
-_Generated 2026-10-11 13:55 New York time. Research only, not investment advice._
+_Generated 2026-10-11 14:01 New York time. Research only, not investment advice._
 
 ## Tonight's orders (buy MOC at the close, sell overnight legs MOO at the next open)
 
@@ -12,6 +12,21 @@ _Generated 2026-10-11 13:55 New York time. Research only, not investment advice.
 - 50% SOXL (3x SOXX) — overnight
 
 **LegM** — Leg M' 100% (blind-passed)
+- 20% BE (1x, no 2x fund) — overnight
+- 20% LITE (1x, no 2x fund) — overnight
+- 20% SNDK (1x, no 2x fund) — overnight
+- 20% MUU (2x MU) — overnight
+- 20% MRVL (1x, no 2x fund) — overnight
+
+**V6A** — V6, Leg M' picks only if m250 > 10 bp (round 13, forward test)
+- 10% BE (1x, no 2x fund) — overnight
+- 10% LITE (1x, no 2x fund) — overnight
+- 10% SNDK (1x, no 2x fund) — overnight
+- 10% MUU (2x MU) — overnight
+- 10% MRVL (1x, no 2x fund) — overnight
+- 50% SOXL (3x SOXX) — overnight
+
+**LegMA** — Leg M' 100%, picks only if m250 > 10 bp (round 13, forward test)
 - 20% BE (1x, no 2x fund) — overnight
 - 20% LITE (1x, no 2x fund) — overnight
 - 20% SNDK (1x, no 2x fund) — overnight

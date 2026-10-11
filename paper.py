@@ -30,6 +30,8 @@ TREND_FUNDS = {"SPY": ("UPRO", "SPXU"), "QQQ": ("TQQQ", "SQQQ"), "IWM": ("TNA", 
                "VNQ": ("DRN", "DRV"), "FXE": ("ULE", "EUO"), "FXY": ("YCL", "YCS"), "XLE": ("ERX", "ERY")}
 COST, FEE2, FEE3 = 0.0005, 0.01 / 252, 0.0095 / 252
 STRATS = {"V6": "50% SOXL + 50% Leg M' (blind-passed)", "LegM": "Leg M' 100% (blind-passed)",
+          "V6A": "V6, Leg M' picks only if m250 > 10 bp (round 13, forward test)",
+          "LegMA": "Leg M' 100%, picks only if m250 > 10 bp (round 13, forward test)",
           "V7": "Leg M', trend sleeve when idle (withdrawn, comparison)"}
 JOURNAL, EQUITY = HERE / "journal.json", HERE / "equity.csv"
 
@@ -96,8 +98,10 @@ def decide(f, state):
         tw = {"date": str(d.date()), "w": {k: round(float(v), 4) for k, v in trend_weights(f).items()}}
         state["trend"] = tw
     pos_m = lambda wt: [{"und": t, "instr": LEV2X.get(t, t), "w": wt, "lev": 2, "kind": "on"} for t in picks]
-    out = {"V6": pos_m(0.10) + ([{"und": "SOXX", "instr": "SOXL", "w": 0.5, "lev": 3, "kind": "on"}] if up else []),
-           "LegM": pos_m(0.20)}
+    soxl = [{"und": "SOXX", "instr": "SOXL", "w": 0.5, "lev": 3, "kind": "on"}] if up else []
+    good = [t for t in picks if table.at[t, "m250_bp"] > 10]           # quality bar: empty slot = cash
+    pos_q = lambda wt: [p for p in pos_m(wt) if p["und"] in good]
+    out = {"V6": pos_m(0.10) + soxl, "LegM": pos_m(0.20), "V6A": pos_q(0.10) + soxl, "LegMA": pos_q(0.20)}
     out["V7"] = pos_m(0.20) if picks else [{"und": a, "instr": a, "w": w, "lev": 1, "kind": "cc"} for a, w in tw["w"].items()]
     return out, picks, table, up
 
@@ -190,8 +194,8 @@ def main():
         pd.concat([old, new]).to_csv(EQUITY, index=False)
     # 2) decide for today's close (once per date)
     dec, picks, table, up = decide(f, state)
-    if not any(j["date"] == str(d.date()) for j in journal):
-        journal += [{"strategy": s, "date": str(d.date()), "pos": p, "result": None} for s, p in dec.items()]
+    have = {j["strategy"] for j in journal if j["date"] == str(d.date())}
+    journal += [{"strategy": s, "date": str(d.date()), "pos": p, "result": None} for s, p in dec.items() if s not in have]
     JOURNAL.write_text(json.dumps(journal, indent=1))
     (HERE / "state.json").write_text(json.dumps(state, indent=1))
     write_report(state, journal, picks, table, up, d)
