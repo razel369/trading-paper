@@ -23,6 +23,7 @@ HERE = Path(__file__).parent
 NY = ZoneInfo("America/New_York")
 U = json.loads((HERE / "universe.json").read_text())
 UNIVERSE, LEV2X = U["universe"], U["lev2x"]
+FUND3 = {"SOXX": "SOXL", "QQQ": "TQQQ", "XLK": "TECL", "SPY": "UPRO", "IWM": "TNA", "XLF": "FAS", "DIA": "UDOW", "XBI": "LABU"}
 TREND = ["SPY", "QQQ", "IWM", "TLT", "IEF", "GLD", "SLV", "DBC", "USO", "UUP", "EFA", "EEM", "VNQ", "FXE", "FXY", "XLE"]
 TREND_FUNDS = {"SPY": ("UPRO", "SPXU"), "QQQ": ("TQQQ", "SQQQ"), "IWM": ("TNA", "TZA"), "TLT": ("TMF", "TMV"),
                "IEF": ("TYD", "TYO"), "GLD": ("UGL", "GLL"), "SLV": ("AGQ", "ZSL"), "DBC": ("DBC", "-"),
@@ -32,12 +33,13 @@ COST, FEE2, FEE3 = 0.0005, 0.01 / 252, 0.0095 / 252
 STRATS = {"V6": "50% SOXL + 50% Leg M' (blind-passed)", "LegM": "Leg M' 100% (blind-passed)",
           "V6A": "V6, Leg M' picks only if m250 > 10 bp (round 13, forward test)",
           "LegMA": "Leg M' 100%, picks only if m250 > 10 bp (round 13, forward test)",
+          "V8": "50%: best 2 of 8 liquid 3x funds by m250 + 50% LegMA (round 15, forward test)",
           "V7": "Leg M', trend sleeve when idle (withdrawn, comparison)"}
 JOURNAL, EQUITY = HERE / "journal.json", HERE / "equity.csv"
 
 
 def download():
-    tick = sorted(set(UNIVERSE) | {"SOXX", "SOXL"} | set(LEV2X.values()) | set(TREND))
+    tick = sorted(set(UNIVERSE) | {"SOXX", "SOXL"} | set(LEV2X.values()) | set(TREND) | set(FUND3) | set(FUND3.values()))
     raw = yf.download(tick, period="3y", auto_adjust=True, progress=False, group_by="ticker", threads=True)
     f = {k: pd.DataFrame({t: raw[t][k] for t in tick if t in raw.columns.get_level_values(0)})
          for k in ["Open", "High", "Low", "Close", "Volume"]}
@@ -76,6 +78,14 @@ def soxx_up(f):
     return bool(c.iloc[-1] > c.rolling(200).mean().iloc[-1])
 
 
+def auto3x(f, k=2):
+    """Best k of the 8 liquid-3x-fund underlyings: above SMA200, ranked by 250-night mean overnight return."""
+    C, O = f["Close"][list(FUND3)], f["Open"][list(FUND3)]
+    m = (O / C.shift(1) - 1).rolling(250, min_periods=200).mean().iloc[-1]
+    up = C.iloc[-1] > C.rolling(200).mean().iloc[-1]
+    return list(m[up & m.notna()].sort_values(ascending=False).index[:k])
+
+
 def trend_weights(f):
     """trend.py (Moskowitz–Ooi–Pedersen params) at the last bar, then x2 with gross <= 3."""
     c = f["Close"][TREND].ffill(limit=3)
@@ -102,6 +112,7 @@ def decide(f, state):
     good = [t for t in picks if table.at[t, "m250_bp"] > 10]           # quality bar: empty slot = cash
     pos_q = lambda wt: [p for p in pos_m(wt) if p["und"] in good]
     out = {"V6": pos_m(0.10) + soxl, "LegM": pos_m(0.20), "V6A": pos_q(0.10) + soxl, "LegMA": pos_q(0.20)}
+    out["V8"] = [{"und": u, "instr": FUND3[u], "w": 0.25, "lev": 3, "kind": "on"} for u in auto3x(f)] + pos_q(0.10)
     out["V7"] = pos_m(0.20) if picks else [{"und": a, "instr": a, "w": w, "lev": 1, "kind": "cc"} for a, w in tw["w"].items()]
     return out, picks, table, up
 
