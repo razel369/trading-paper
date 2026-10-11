@@ -1,0 +1,38 @@
+name: paper-trading
+on:
+  schedule:
+    - cron: "40 21 * * 1-5"   # after the US close (16:40 EST / 17:40 EDT): settle + journal tonight's decision
+    - cron: "35 19 * * 1-5"   # 15:35 EDT: pre-close preview for MOC orders (summer)
+    - cron: "35 20 * * 1-5"   # 15:35 EST: pre-close preview for MOC orders (winter)
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency: paper
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Run
+        env:
+          SCHED: ${{ github.event.schedule }}
+        run: |
+          H=$(TZ=America/New_York date +%H%M)
+          if [ "$SCHED" = "40 21 * * 1-5" ] || [ -z "$SCHED" ]; then
+            python paper.py
+          elif [ "$H" -ge 1500 ] && [ "$H" -lt 1550 ]; then
+            python paper.py --preview
+          else
+            echo "outside the 15:00-15:50 New York preview window ($H), skipping"
+          fi
+      - name: Commit results
+        run: |
+          git config user.name "paper-bot"
+          git config user.email "paper-bot@users.noreply.github.com"
+          git add -A
+          git diff --cached --quiet || (git commit -m "chore(paper): update $(date -u +%F)" && git push)
