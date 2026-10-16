@@ -1032,7 +1032,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-10-16",
+   "model": -0.05411,
+   "instr": -0.044877
+  }
  },
  {
   "strategy": "LegM",
@@ -1074,7 +1078,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-10-16",
+   "model": -0.051117,
+   "instr": -0.031826
+  }
  },
  {
   "strategy": "V6A",
@@ -1123,7 +1131,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-10-16",
+   "model": -0.05411,
+   "instr": -0.044877
+  }
  },
  {
   "strategy": "LegMA",
@@ -1165,7 +1177,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-10-16",
+   "model": -0.051117,
+   "instr": -0.031826
+  }
  },
  {
   "strategy": "V8",
@@ -1221,7 +1237,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-10-16",
+   "model": -0.043576,
+   "instr": -0.033852
+  }
  },
  {
   "strategy": "V7",
@@ -1258,6 +1278,290 @@
    {
     "und": "MRVL",
     "instr": "MRVL",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   }
+  ],
+  "result": {
+   "exit_date": "2026-10-16",
+   "model": -0.051117,
+   "instr": -0.031826
+  }
+ },
+ {
+  "strategy": "V6",
+  "date": "2026-10-16",
+  "pos": [
+   {
+    "und": "LITE",
+    "instr": "LITE",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MU",
+    "instr": "MUU",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "SNDK",
+    "instr": "SNDK",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MRVL",
+    "instr": "MRVL",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "INTC",
+    "instr": "LINT",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "SOXX",
+    "instr": "SOXL",
+    "w": 0.5,
+    "lev": 3,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "LegM",
+  "date": "2026-10-16",
+  "pos": [
+   {
+    "und": "LITE",
+    "instr": "LITE",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MU",
+    "instr": "MUU",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "SNDK",
+    "instr": "SNDK",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MRVL",
+    "instr": "MRVL",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "INTC",
+    "instr": "LINT",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "V6A",
+  "date": "2026-10-16",
+  "pos": [
+   {
+    "und": "LITE",
+    "instr": "LITE",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MU",
+    "instr": "MUU",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "SNDK",
+    "instr": "SNDK",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MRVL",
+    "instr": "MRVL",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "INTC",
+    "instr": "LINT",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "SOXX",
+    "instr": "SOXL",
+    "w": 0.5,
+    "lev": 3,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "LegMA",
+  "date": "2026-10-16",
+  "pos": [
+   {
+    "und": "LITE",
+    "instr": "LITE",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MU",
+    "instr": "MUU",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "SNDK",
+    "instr": "SNDK",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MRVL",
+    "instr": "MRVL",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "INTC",
+    "instr": "LINT",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "V8",
+  "date": "2026-10-16",
+  "pos": [
+   {
+    "und": "SOXX",
+    "instr": "SOXL",
+    "w": 0.25,
+    "lev": 3,
+    "kind": "on"
+   },
+   {
+    "und": "XLK",
+    "instr": "TECL",
+    "w": 0.25,
+    "lev": 3,
+    "kind": "on"
+   },
+   {
+    "und": "LITE",
+    "instr": "LITE",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MU",
+    "instr": "MUU",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "SNDK",
+    "instr": "SNDK",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MRVL",
+    "instr": "MRVL",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "INTC",
+    "instr": "LINT",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "V7",
+  "date": "2026-10-16",
+  "pos": [
+   {
+    "und": "LITE",
+    "instr": "LITE",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MU",
+    "instr": "MUU",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "SNDK",
+    "instr": "SNDK",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MRVL",
+    "instr": "MRVL",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "INTC",
+    "instr": "LINT",
     "w": 0.2,
     "lev": 2,
     "kind": "on"
