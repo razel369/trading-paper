@@ -1605,7 +1605,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-10-20",
+   "model": -0.021009,
+   "instr": -0.021183
+  }
  },
  {
   "strategy": "LegM",
@@ -1629,7 +1633,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-10-20",
+   "model": -0.021009,
+   "instr": -0.021183
+  }
  },
  {
   "strategy": "LegMA",
@@ -1768,7 +1776,11 @@
     "kind": "cc"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-10-20",
+   "model": 0.003019,
+   "instr": 0.003019
+  }
  },
  {
   "strategy": "V6",
@@ -1788,7 +1800,11 @@
   "strategy": "LegM",
   "date": "2026-10-20",
   "pos": [],
-  "result": null
+  "result": {
+   "exit_date": "2026-10-21",
+   "model": 0.0,
+   "instr": 0.0
+  }
  },
  {
   "strategy": "V6A",
@@ -1808,17 +1824,190 @@
   "strategy": "LegMA",
   "date": "2026-10-20",
   "pos": [],
-  "result": null
+  "result": {
+   "exit_date": "2026-10-21",
+   "model": 0.0,
+   "instr": 0.0
+  }
  },
  {
   "strategy": "V8",
   "date": "2026-10-20",
   "pos": [],
-  "result": null
+  "result": {
+   "exit_date": "2026-10-21",
+   "model": 0.0,
+   "instr": 0.0
+  }
  },
  {
   "strategy": "V7",
   "date": "2026-10-20",
+  "pos": [
+   {
+    "und": "SPY",
+    "instr": "SPY",
+    "w": 0.1997,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "QQQ",
+    "instr": "QQQ",
+    "w": 0.1185,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "IWM",
+    "instr": "IWM",
+    "w": 0.1558,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "TLT",
+    "instr": "TLT",
+    "w": -0.2055,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "IEF",
+    "instr": "IEF",
+    "w": -0.4043,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "GLD",
+    "instr": "GLD",
+    "w": -0.0914,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "SLV",
+    "instr": "SLV",
+    "w": 0.0563,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "DBC",
+    "instr": "DBC",
+    "w": 0.1056,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "USO",
+    "instr": "USO",
+    "w": 0.0452,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "UUP",
+    "instr": "UUP",
+    "w": 0.4063,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "EFA",
+    "instr": "EFA",
+    "w": 0.1781,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "EEM",
+    "instr": "EEM",
+    "w": 0.0975,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "VNQ",
+    "instr": "VNQ",
+    "w": 0.1771,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "FXE",
+    "instr": "FXE",
+    "w": -0.442,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "FXY",
+    "instr": "FXY",
+    "w": -0.2174,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "XLE",
+    "instr": "XLE",
+    "w": 0.0993,
+    "lev": 1,
+    "kind": "cc"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "V6",
+  "date": "2026-10-21",
+  "pos": [
+   {
+    "und": "SOXX",
+    "instr": "SOXL",
+    "w": 0.5,
+    "lev": 3,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "LegM",
+  "date": "2026-10-21",
+  "pos": [],
+  "result": null
+ },
+ {
+  "strategy": "V6A",
+  "date": "2026-10-21",
+  "pos": [
+   {
+    "und": "SOXX",
+    "instr": "SOXL",
+    "w": 0.5,
+    "lev": 3,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "LegMA",
+  "date": "2026-10-21",
+  "pos": [],
+  "result": null
+ },
+ {
+  "strategy": "V8",
+  "date": "2026-10-21",
+  "pos": [],
+  "result": null
+ },
+ {
+  "strategy": "V7",
+  "date": "2026-10-21",
   "pos": [
    {
     "und": "SPY",
