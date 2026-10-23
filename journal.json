@@ -1983,7 +1983,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-10-22",
+   "model": -0.060902,
+   "instr": -0.061515
+  }
  },
  {
   "strategy": "LegM",
@@ -2007,7 +2011,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-10-22",
+   "model": -0.060902,
+   "instr": -0.061515
+  }
  },
  {
   "strategy": "LegMA",
@@ -2146,7 +2154,11 @@
     "kind": "cc"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-10-22",
+   "model": -0.018436,
+   "instr": -0.018436
+  }
  },
  {
   "strategy": "V6",
@@ -2160,13 +2172,21 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-10-23",
+   "model": -0.003848,
+   "instr": -0.003112
+  }
  },
  {
   "strategy": "LegM",
   "date": "2026-10-22",
   "pos": [],
-  "result": null
+  "result": {
+   "exit_date": "2026-10-23",
+   "model": 0.0,
+   "instr": 0.0
+  }
  },
  {
   "strategy": "V6A",
@@ -2180,19 +2200,31 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-10-23",
+   "model": -0.003848,
+   "instr": -0.003112
+  }
  },
  {
   "strategy": "LegMA",
   "date": "2026-10-22",
   "pos": [],
-  "result": null
+  "result": {
+   "exit_date": "2026-10-23",
+   "model": 0.0,
+   "instr": 0.0
+  }
  },
  {
   "strategy": "V8",
   "date": "2026-10-22",
   "pos": [],
-  "result": null
+  "result": {
+   "exit_date": "2026-10-23",
+   "model": 0.0,
+   "instr": 0.0
+  }
  },
  {
   "strategy": "V7",
@@ -2309,6 +2341,290 @@
     "w": 0.0993,
     "lev": 1,
     "kind": "cc"
+   }
+  ],
+  "result": {
+   "exit_date": "2026-10-23",
+   "model": 0.007212,
+   "instr": 0.007212
+  }
+ },
+ {
+  "strategy": "V6",
+  "date": "2026-10-23",
+  "pos": [
+   {
+    "und": "MRVL",
+    "instr": "MRVL",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MU",
+    "instr": "MUU",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "SNDK",
+    "instr": "SNDK",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "INTC",
+    "instr": "LINT",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MRNA",
+    "instr": "MRNA",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "SOXX",
+    "instr": "SOXL",
+    "w": 0.5,
+    "lev": 3,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "LegM",
+  "date": "2026-10-23",
+  "pos": [
+   {
+    "und": "MRVL",
+    "instr": "MRVL",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MU",
+    "instr": "MUU",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "SNDK",
+    "instr": "SNDK",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "INTC",
+    "instr": "LINT",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MRNA",
+    "instr": "MRNA",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "V6A",
+  "date": "2026-10-23",
+  "pos": [
+   {
+    "und": "MRVL",
+    "instr": "MRVL",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MU",
+    "instr": "MUU",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "SNDK",
+    "instr": "SNDK",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "INTC",
+    "instr": "LINT",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MRNA",
+    "instr": "MRNA",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "SOXX",
+    "instr": "SOXL",
+    "w": 0.5,
+    "lev": 3,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "LegMA",
+  "date": "2026-10-23",
+  "pos": [
+   {
+    "und": "MRVL",
+    "instr": "MRVL",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MU",
+    "instr": "MUU",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "SNDK",
+    "instr": "SNDK",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "INTC",
+    "instr": "LINT",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MRNA",
+    "instr": "MRNA",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "V8",
+  "date": "2026-10-23",
+  "pos": [
+   {
+    "und": "SOXX",
+    "instr": "SOXL",
+    "w": 0.25,
+    "lev": 3,
+    "kind": "on"
+   },
+   {
+    "und": "XLK",
+    "instr": "TECL",
+    "w": 0.25,
+    "lev": 3,
+    "kind": "on"
+   },
+   {
+    "und": "MRVL",
+    "instr": "MRVL",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MU",
+    "instr": "MUU",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "SNDK",
+    "instr": "SNDK",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "INTC",
+    "instr": "LINT",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MRNA",
+    "instr": "MRNA",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "V7",
+  "date": "2026-10-23",
+  "pos": [
+   {
+    "und": "MRVL",
+    "instr": "MRVL",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MU",
+    "instr": "MUU",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "SNDK",
+    "instr": "SNDK",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "INTC",
+    "instr": "LINT",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MRNA",
+    "instr": "MRNA",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
    }
   ],
   "result": null
