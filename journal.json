@@ -2628,5 +2628,170 @@
    }
   ],
   "result": null
+ },
+ {
+  "strategy": "V6",
+  "date": "2026-10-26",
+  "pos": [
+   {
+    "und": "SOXX",
+    "instr": "SOXL",
+    "w": 0.5,
+    "lev": 3,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "LegM",
+  "date": "2026-10-26",
+  "pos": [],
+  "result": null
+ },
+ {
+  "strategy": "V6A",
+  "date": "2026-10-26",
+  "pos": [
+   {
+    "und": "SOXX",
+    "instr": "SOXL",
+    "w": 0.5,
+    "lev": 3,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "LegMA",
+  "date": "2026-10-26",
+  "pos": [],
+  "result": null
+ },
+ {
+  "strategy": "V8",
+  "date": "2026-10-26",
+  "pos": [],
+  "result": null
+ },
+ {
+  "strategy": "V7",
+  "date": "2026-10-26",
+  "pos": [
+   {
+    "und": "SPY",
+    "instr": "SPY",
+    "w": 0.2015,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "QQQ",
+    "instr": "QQQ",
+    "w": 0.1182,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "IWM",
+    "instr": "IWM",
+    "w": 0.1516,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "TLT",
+    "instr": "TLT",
+    "w": -0.1904,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "IEF",
+    "instr": "IEF",
+    "w": -0.3606,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "GLD",
+    "instr": "GLD",
+    "w": -0.0864,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "SLV",
+    "instr": "SLV",
+    "w": 0.0526,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "DBC",
+    "instr": "DBC",
+    "w": 0.115,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "USO",
+    "instr": "USO",
+    "w": 0.0497,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "UUP",
+    "instr": "UUP",
+    "w": 0.4264,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "EFA",
+    "instr": "EFA",
+    "w": 0.188,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "EEM",
+    "instr": "EEM",
+    "w": 0.1021,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "VNQ",
+    "instr": "VNQ",
+    "w": 0.1682,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "FXE",
+    "instr": "FXE",
+    "w": -0.4556,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "FXY",
+    "instr": "FXY",
+    "w": -0.2372,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "XLE",
+    "instr": "XLE",
+    "w": 0.0963,
+    "lev": 1,
+    "kind": "cc"
+   }
+  ],
+  "result": null
  }
 ]

@@ -1,80 +1,49 @@
-# Paper trading — signal for the close of 2026-10-23
-_Generated 2026-10-23 19:58 New York time. Research only, not investment advice._
+# Paper trading — signal for the close of 2026-10-26
+_Generated 2026-10-26 20:46 New York time. Research only, not investment advice._
 
 ## Tonight's orders (buy MOC at the close, sell overnight legs MOO at the next open)
 
 **V6** — 50% SOXL + 50% Leg M' (blind-passed)
-- 10% MRVL (1x, no 2x fund) — overnight
-- 10% MUU (2x MU) — overnight
-- 10% SNDK (1x, no 2x fund) — overnight
-- 10% LINT (2x INTC) — overnight
-- 10% MRNA (1x, no 2x fund) — overnight
 - 50% SOXL (3x SOXX) — overnight
 
 **LegM** — Leg M' 100% (blind-passed)
-- 20% MRVL (1x, no 2x fund) — overnight
-- 20% MUU (2x MU) — overnight
-- 20% SNDK (1x, no 2x fund) — overnight
-- 20% LINT (2x INTC) — overnight
-- 20% MRNA (1x, no 2x fund) — overnight
+- cash
 
 **V6A** — V6, Leg M' picks only if m250 > 10 bp (round 13, forward test)
-- 10% MRVL (1x, no 2x fund) — overnight
-- 10% MUU (2x MU) — overnight
-- 10% SNDK (1x, no 2x fund) — overnight
-- 10% LINT (2x INTC) — overnight
-- 10% MRNA (1x, no 2x fund) — overnight
 - 50% SOXL (3x SOXX) — overnight
 
 **LegMA** — Leg M' 100%, picks only if m250 > 10 bp (round 13, forward test)
-- 20% MRVL (1x, no 2x fund) — overnight
-- 20% MUU (2x MU) — overnight
-- 20% SNDK (1x, no 2x fund) — overnight
-- 20% LINT (2x INTC) — overnight
-- 20% MRNA (1x, no 2x fund) — overnight
+- cash
 
 **V8** — 50%: best 2 of 8 liquid 3x funds by m250 + 50% LegMA (round 15, forward test)
-- 25% SOXL (3x SOXX) — overnight
-- 25% TECL (3x XLK) — overnight
-- 10% MRVL (1x, no 2x fund) — overnight
-- 10% MUU (2x MU) — overnight
-- 10% SNDK (1x, no 2x fund) — overnight
-- 10% LINT (2x INTC) — overnight
-- 10% MRNA (1x, no 2x fund) — overnight
+- cash
 
 **V7** — Leg M', trend sleeve when idle (withdrawn, comparison)
-- 20% MRVL (1x, no 2x fund) — overnight
-- 20% MUU (2x MU) — overnight
-- 20% SNDK (1x, no 2x fund) — overnight
-- 20% LINT (2x INTC) — overnight
-- 20% MRNA (1x, no 2x fund) — overnight
+- trend SPY: exposure +20% of capital (long via UPRO / short via SPXU; divide by fund leverage) — hold
+- trend QQQ: exposure +12% of capital (long via TQQQ / short via SQQQ; divide by fund leverage) — hold
+- trend IWM: exposure +15% of capital (long via TNA / short via TZA; divide by fund leverage) — hold
+- trend TLT: exposure -19% of capital (long via TMF / short via TMV; divide by fund leverage) — hold
+- trend IEF: exposure -36% of capital (long via TYD / short via TYO; divide by fund leverage) — hold
+- trend GLD: exposure -9% of capital (long via UGL / short via GLL; divide by fund leverage) — hold
+- trend SLV: exposure +5% of capital (long via AGQ / short via ZSL; divide by fund leverage) — hold
+- trend DBC: exposure +12% of capital (long via DBC / short via -; divide by fund leverage) — hold
+- trend USO: exposure +5% of capital (long via UCO / short via SCO; divide by fund leverage) — hold
+- trend UUP: exposure +43% of capital (long via UUP / short via UDN; divide by fund leverage) — hold
+- trend EFA: exposure +19% of capital (long via EFA / short via EFZ; divide by fund leverage) — hold
+- trend EEM: exposure +10% of capital (long via EDC / short via EDZ; divide by fund leverage) — hold
+- trend VNQ: exposure +17% of capital (long via DRN / short via DRV; divide by fund leverage) — hold
+- trend FXE: exposure -46% of capital (long via ULE / short via EUO; divide by fund leverage) — hold
+- trend FXY: exposure -24% of capital (long via YCL / short via YCS; divide by fund leverage) — hold
+- trend XLE: exposure +10% of capital (long via ERX / short via ERY; divide by fund leverage) — hold
 
-SOXX above 200-day MA: **True**. Leg M' picks: **MRVL, MU, SNDK, INTC, MRNA**
+SOXX above 200-day MA: **True**. Leg M' picks: **none (cash)**
 
 ### Leg M' ranking (top-20 by 20-day dollar volume)
 
 ```
-       dv20_$M  above200  m250_bp
-MU     26570.0      True     48.2
-NVDA   23759.4      True     20.3
-SPCX   15752.4     False      NaN
-META   13747.1      True      2.4
-TSLA   13390.8     False     -5.3
-AAPL   13061.8      True      1.2
-SNDK   12175.3      True     47.2
-AMD    11402.6      True     17.5
-MSFT   10632.2      True      2.3
-INTC   10164.8      True     30.0
-AMZN    9113.7      True     11.4
-GOOGL   8118.2     False      5.7
-AVGO    7561.8     False     17.0
-MRVL    5299.0      True     49.6
-GOOG    5286.3     False      3.4
-TSM     5016.1      True     21.5
-LITE    4662.2     False     60.5
-PLTR    4343.7      True      8.1
-MRNA    4162.8      True     22.2
-NBIS    4067.4     False     36.7
+Empty DataFrame
+Columns: [dv20_$M, above200, m250_bp]
+Index: []
 ```
 
 ## Performance since start (model = synthetic leverage as in backtests; real = actual funds)
