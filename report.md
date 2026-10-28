@@ -1,5 +1,5 @@
-# Paper trading — signal for the close of 2026-10-26
-_Generated 2026-10-26 20:46 New York time. Research only, not investment advice._
+# Paper trading — signal for the close of 2026-10-27
+_Generated 2026-10-27 20:43 New York time. Research only, not investment advice._
 
 ## Tonight's orders (buy MOC at the close, sell overnight legs MOO at the next open)
 
@@ -50,9 +50,9 @@ Index: []
 
 | strategy | nights | model | real | last 5 real |
 |---|---|---|---|---|
-| V6 | 10 | -20.5% | -19.3% | +8.7 -2.1 +2.7 -6.2 -0.3 |
-| LegM | 10 | -7.9% | -4.6% | +6.6 +0.0 +0.0 +0.0 +0.0 |
-| V6A | 10 | -20.5% | -19.3% | +8.7 -2.1 +2.7 -6.2 -0.3 |
-| LegMA | 10 | -7.9% | -4.6% | +6.6 +0.0 +0.0 +0.0 +0.0 |
-| V8 | 10 | -5.9% | -4.2% | +7.5 +0.0 +0.0 +0.0 +0.0 |
-| V7 | 10 | -10.1% | -6.9% | +6.6 +0.3 +0.2 -1.8 +0.7 |
+| V6 | 11 | -19.8% | -18.3% | -2.1 +2.7 -6.2 -0.3 +1.3 |
+| LegM | 12 | -9.0% | -4.8% | +0.0 +0.0 +0.0 -0.2 +0.0 |
+| V6A | 11 | -19.8% | -18.3% | -2.1 +2.7 -6.2 -0.3 +1.3 |
+| LegMA | 12 | -9.0% | -4.8% | +0.0 +0.0 +0.0 -0.2 +0.0 |
+| V8 | 12 | -5.4% | -3.3% | +0.0 +0.0 +0.0 +0.9 +0.0 |
+| V7 | 11 | -11.2% | -7.1% | +0.3 +0.2 -1.8 +0.7 -0.2 |
