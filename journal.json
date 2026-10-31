@@ -3043,7 +3043,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-10-29",
+   "model": -0.028749,
+   "instr": -0.028149
+  }
  },
  {
   "strategy": "LegM",
@@ -3067,7 +3071,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-10-29",
+   "model": -0.028749,
+   "instr": -0.028149
+  }
  },
  {
   "strategy": "LegMA",
@@ -3092,6 +3100,187 @@
  {
   "strategy": "V7",
   "date": "2026-10-28",
+  "pos": [
+   {
+    "und": "SPY",
+    "instr": "SPY",
+    "w": 0.2015,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "QQQ",
+    "instr": "QQQ",
+    "w": 0.1182,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "IWM",
+    "instr": "IWM",
+    "w": 0.1516,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "TLT",
+    "instr": "TLT",
+    "w": -0.1904,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "IEF",
+    "instr": "IEF",
+    "w": -0.3606,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "GLD",
+    "instr": "GLD",
+    "w": -0.0864,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "SLV",
+    "instr": "SLV",
+    "w": 0.0526,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "DBC",
+    "instr": "DBC",
+    "w": 0.115,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "USO",
+    "instr": "USO",
+    "w": 0.0497,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "UUP",
+    "instr": "UUP",
+    "w": 0.4264,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "EFA",
+    "instr": "EFA",
+    "w": 0.188,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "EEM",
+    "instr": "EEM",
+    "w": 0.1021,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "VNQ",
+    "instr": "VNQ",
+    "w": 0.1682,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "FXE",
+    "instr": "FXE",
+    "w": -0.4556,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "FXY",
+    "instr": "FXY",
+    "w": -0.2372,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "XLE",
+    "instr": "XLE",
+    "w": 0.0963,
+    "lev": 1,
+    "kind": "cc"
+   }
+  ],
+  "result": {
+   "exit_date": "2026-10-29",
+   "model": -0.000414,
+   "instr": -0.000414
+  }
+ },
+ {
+  "strategy": "V6",
+  "date": "2026-10-29",
+  "pos": [
+   {
+    "und": "SOXX",
+    "instr": "SOXL",
+    "w": 0.5,
+    "lev": 3,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "LegM",
+  "date": "2026-10-29",
+  "pos": [],
+  "result": {
+   "exit_date": "2026-10-30",
+   "model": 0.0,
+   "instr": 0.0
+  }
+ },
+ {
+  "strategy": "V6A",
+  "date": "2026-10-29",
+  "pos": [
+   {
+    "und": "SOXX",
+    "instr": "SOXL",
+    "w": 0.5,
+    "lev": 3,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "LegMA",
+  "date": "2026-10-29",
+  "pos": [],
+  "result": {
+   "exit_date": "2026-10-30",
+   "model": 0.0,
+   "instr": 0.0
+  }
+ },
+ {
+  "strategy": "V8",
+  "date": "2026-10-29",
+  "pos": [],
+  "result": {
+   "exit_date": "2026-10-30",
+   "model": 0.0,
+   "instr": 0.0
+  }
+ },
+ {
+  "strategy": "V7",
+  "date": "2026-10-29",
   "pos": [
    {
     "und": "SPY",
@@ -3210,7 +3399,7 @@
  },
  {
   "strategy": "V6",
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "pos": [
    {
     "und": "SOXX",
@@ -3224,13 +3413,13 @@
  },
  {
   "strategy": "LegM",
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "pos": [],
   "result": null
  },
  {
   "strategy": "V6A",
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "pos": [
    {
     "und": "SOXX",
@@ -3244,129 +3433,129 @@
  },
  {
   "strategy": "LegMA",
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "pos": [],
   "result": null
  },
  {
   "strategy": "V8",
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "pos": [],
   "result": null
  },
  {
   "strategy": "V7",
-  "date": "2026-10-29",
+  "date": "2026-10-30",
   "pos": [
    {
     "und": "SPY",
     "instr": "SPY",
-    "w": 0.2015,
+    "w": 0.2175,
     "lev": 1,
     "kind": "cc"
    },
    {
     "und": "QQQ",
     "instr": "QQQ",
-    "w": 0.1182,
+    "w": 0.1245,
     "lev": 1,
     "kind": "cc"
    },
    {
     "und": "IWM",
     "instr": "IWM",
-    "w": 0.1516,
+    "w": 0.1559,
     "lev": 1,
     "kind": "cc"
    },
    {
     "und": "TLT",
     "instr": "TLT",
-    "w": -0.1904,
+    "w": -0.1866,
     "lev": 1,
     "kind": "cc"
    },
    {
     "und": "IEF",
     "instr": "IEF",
-    "w": -0.3606,
+    "w": -0.356,
     "lev": 1,
     "kind": "cc"
    },
    {
     "und": "GLD",
     "instr": "GLD",
-    "w": -0.0864,
+    "w": 0.0898,
     "lev": 1,
     "kind": "cc"
    },
    {
     "und": "SLV",
     "instr": "SLV",
-    "w": 0.0526,
+    "w": 0.0525,
     "lev": 1,
     "kind": "cc"
    },
    {
     "und": "DBC",
     "instr": "DBC",
-    "w": 0.115,
+    "w": 0.119,
     "lev": 1,
     "kind": "cc"
    },
    {
     "und": "USO",
     "instr": "USO",
-    "w": 0.0497,
+    "w": 0.0531,
     "lev": 1,
     "kind": "cc"
    },
    {
     "und": "UUP",
     "instr": "UUP",
-    "w": 0.4264,
+    "w": 0.415,
     "lev": 1,
     "kind": "cc"
    },
    {
     "und": "EFA",
     "instr": "EFA",
-    "w": 0.188,
+    "w": 0.1867,
     "lev": 1,
     "kind": "cc"
    },
    {
     "und": "EEM",
     "instr": "EEM",
-    "w": 0.1021,
+    "w": 0.1013,
     "lev": 1,
     "kind": "cc"
    },
    {
     "und": "VNQ",
     "instr": "VNQ",
-    "w": 0.1682,
+    "w": 0.152,
     "lev": 1,
     "kind": "cc"
    },
    {
     "und": "FXE",
     "instr": "FXE",
-    "w": -0.4556,
+    "w": -0.4454,
     "lev": 1,
     "kind": "cc"
    },
    {
     "und": "FXY",
     "instr": "FXY",
-    "w": -0.2372,
+    "w": -0.2488,
     "lev": 1,
     "kind": "cc"
    },
    {
     "und": "XLE",
     "instr": "XLE",
-    "w": 0.0963,
+    "w": 0.096,
     "lev": 1,
     "kind": "cc"
    }
