@@ -1,16 +1,16 @@
-# Paper trading — signal for the close of 2026-11-04
-_Generated 2026-11-04 20:46 New York time. Research only, not investment advice._
+# Paper trading — signal for the close of 2026-11-05
+_Generated 2026-11-05 20:46 New York time. Research only, not investment advice._
 
 ## Tonight's orders (buy MOC at the close, sell overnight legs MOO at the next open)
 
 **V6** — 50% SOXL + 50% Leg M' (blind-passed)
-- cash
+- 50% SOXL (3x SOXX) — overnight
 
 **LegM** — Leg M' 100% (blind-passed)
 - cash
 
 **V6A** — V6, Leg M' picks only if m250 > 10 bp (round 13, forward test)
-- cash
+- 50% SOXL (3x SOXX) — overnight
 
 **LegMA** — Leg M' 100%, picks only if m250 > 10 bp (round 13, forward test)
 - cash
@@ -36,7 +36,7 @@ _Generated 2026-11-04 20:46 New York time. Research only, not investment advice.
 - trend FXY: exposure -25% of capital (long via YCL / short via YCS; divide by fund leverage) — hold
 - trend XLE: exposure +10% of capital (long via ERX / short via ERY; divide by fund leverage) — hold
 
-SOXX above 200-day MA: **False**. Leg M' picks: **none (cash)**
+SOXX above 200-day MA: **True**. Leg M' picks: **none (cash)**
 
 ### Leg M' ranking (top-20 by 20-day dollar volume)
 
@@ -50,9 +50,9 @@ Index: []
 
 | strategy | nights | model | real | last 5 real |
 |---|---|---|---|---|
-| V6 | 18 | -25.9% | -24.5% | -2.8 -10.1 +1.5 +0.2 +0.0 |
-| LegM | 18 | -8.3% | -4.4% | +0.0 +0.0 +0.0 +0.4 +0.0 |
-| V6A | 18 | -25.3% | -23.8% | -2.8 -10.1 +1.5 +1.1 +0.0 |
-| LegMA | 18 | -6.8% | -2.6% | +0.0 +0.0 +0.0 +2.2 +0.0 |
-| V8 | 18 | -4.3% | -2.2% | +0.0 +0.0 +0.0 +1.2 +0.0 |
-| V7 | 17 | -12.1% | -8.3% | +0.5 -0.0 -1.8 -0.9 +0.4 |
+| V6 | 19 | -25.9% | -24.5% | -10.1 +1.5 +0.2 +0.0 +0.0 |
+| LegM | 19 | -8.3% | -4.4% | +0.0 +0.0 +0.4 +0.0 +0.0 |
+| V6A | 19 | -25.3% | -23.8% | -10.1 +1.5 +1.1 +0.0 +0.0 |
+| LegMA | 19 | -6.8% | -2.6% | +0.0 +0.0 +2.2 +0.0 +0.0 |
+| V8 | 19 | -4.3% | -2.2% | +0.0 +0.0 +1.2 +0.0 +0.0 |
+| V7 | 18 | -11.8% | -8.0% | -0.0 -1.8 -0.9 +0.4 +0.3 |
