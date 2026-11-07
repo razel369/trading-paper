@@ -1,16 +1,16 @@
-# Paper trading — signal for the close of 2026-11-05
-_Generated 2026-11-05 20:46 New York time. Research only, not investment advice._
+# Paper trading — signal for the close of 2026-11-06
+_Generated 2026-11-06 20:10 New York time. Research only, not investment advice._
 
 ## Tonight's orders (buy MOC at the close, sell overnight legs MOO at the next open)
 
 **V6** — 50% SOXL + 50% Leg M' (blind-passed)
-- 50% SOXL (3x SOXX) — overnight
+- cash
 
 **LegM** — Leg M' 100% (blind-passed)
 - cash
 
 **V6A** — V6, Leg M' picks only if m250 > 10 bp (round 13, forward test)
-- 50% SOXL (3x SOXX) — overnight
+- cash
 
 **LegMA** — Leg M' 100%, picks only if m250 > 10 bp (round 13, forward test)
 - cash
@@ -19,24 +19,24 @@ _Generated 2026-11-05 20:46 New York time. Research only, not investment advice.
 - cash
 
 **V7** — Leg M', trend sleeve when idle (withdrawn, comparison)
-- trend SPY: exposure +22% of capital (long via UPRO / short via SPXU; divide by fund leverage) — hold
-- trend QQQ: exposure +12% of capital (long via TQQQ / short via SQQQ; divide by fund leverage) — hold
-- trend IWM: exposure +16% of capital (long via TNA / short via TZA; divide by fund leverage) — hold
-- trend TLT: exposure -19% of capital (long via TMF / short via TMV; divide by fund leverage) — hold
-- trend IEF: exposure -36% of capital (long via TYD / short via TYO; divide by fund leverage) — hold
+- trend SPY: exposure +16% of capital (long via UPRO / short via SPXU; divide by fund leverage) — hold
+- trend QQQ: exposure +10% of capital (long via TQQQ / short via SQQQ; divide by fund leverage) — hold
+- trend IWM: exposure +14% of capital (long via TNA / short via TZA; divide by fund leverage) — hold
+- trend TLT: exposure -20% of capital (long via TMF / short via TMV; divide by fund leverage) — hold
+- trend IEF: exposure -38% of capital (long via TYD / short via TYO; divide by fund leverage) — hold
 - trend GLD: exposure +9% of capital (long via UGL / short via GLL; divide by fund leverage) — hold
 - trend SLV: exposure +5% of capital (long via AGQ / short via ZSL; divide by fund leverage) — hold
 - trend DBC: exposure +12% of capital (long via DBC / short via -; divide by fund leverage) — hold
 - trend USO: exposure +5% of capital (long via UCO / short via SCO; divide by fund leverage) — hold
-- trend UUP: exposure +42% of capital (long via UUP / short via UDN; divide by fund leverage) — hold
-- trend EFA: exposure +19% of capital (long via EFA / short via EFZ; divide by fund leverage) — hold
-- trend EEM: exposure +10% of capital (long via EDC / short via EDZ; divide by fund leverage) — hold
+- trend UUP: exposure +45% of capital (long via UUP / short via UDN; divide by fund leverage) — hold
+- trend EFA: exposure +17% of capital (long via EFA / short via EFZ; divide by fund leverage) — hold
+- trend EEM: exposure +9% of capital (long via EDC / short via EDZ; divide by fund leverage) — hold
 - trend VNQ: exposure +15% of capital (long via DRN / short via DRV; divide by fund leverage) — hold
-- trend FXE: exposure -45% of capital (long via ULE / short via EUO; divide by fund leverage) — hold
-- trend FXY: exposure -25% of capital (long via YCL / short via YCS; divide by fund leverage) — hold
-- trend XLE: exposure +10% of capital (long via ERX / short via ERY; divide by fund leverage) — hold
+- trend FXE: exposure -48% of capital (long via ULE / short via EUO; divide by fund leverage) — hold
+- trend FXY: exposure -28% of capital (long via YCL / short via YCS; divide by fund leverage) — hold
+- trend XLE: exposure +9% of capital (long via ERX / short via ERY; divide by fund leverage) — hold
 
-SOXX above 200-day MA: **True**. Leg M' picks: **none (cash)**
+SOXX above 200-day MA: **False**. Leg M' picks: **none (cash)**
 
 ### Leg M' ranking (top-20 by 20-day dollar volume)
 
@@ -51,8 +51,8 @@ Index: []
 | strategy | nights | model | real | last 5 real |
 |---|---|---|---|---|
 | V6 | 19 | -25.9% | -24.5% | -10.1 +1.5 +0.2 +0.0 +0.0 |
-| LegM | 19 | -8.3% | -4.4% | +0.0 +0.0 +0.4 +0.0 +0.0 |
+| LegM | 20 | -8.3% | -4.4% | +0.0 +0.4 +0.0 +0.0 +0.0 |
 | V6A | 19 | -25.3% | -23.8% | -10.1 +1.5 +1.1 +0.0 +0.0 |
-| LegMA | 19 | -6.8% | -2.6% | +0.0 +0.0 +2.2 +0.0 +0.0 |
-| V8 | 19 | -4.3% | -2.2% | +0.0 +0.0 +1.2 +0.0 +0.0 |
-| V7 | 18 | -11.8% | -8.0% | -0.0 -1.8 -0.9 +0.4 +0.3 |
+| LegMA | 20 | -6.8% | -2.6% | +0.0 +2.2 +0.0 +0.0 +0.0 |
+| V8 | 20 | -4.3% | -2.2% | +0.0 +1.2 +0.0 +0.0 +0.0 |
+| V7 | 19 | -15.5% | -11.9% | -1.8 -0.9 +0.4 +0.3 -4.2 |
