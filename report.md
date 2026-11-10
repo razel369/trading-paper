@@ -1,58 +1,75 @@
-# Paper trading — signal for the close of 2026-11-06
-_Generated 2026-11-06 20:10 New York time. Research only, not investment advice._
+# Paper trading — signal for the close of 2026-11-09
+_Generated 2026-11-09 22:47 New York time. Research only, not investment advice._
 
 ## Tonight's orders (buy MOC at the close, sell overnight legs MOO at the next open)
 
 **V6** — 50% SOXL + 50% Leg M' (blind-passed)
-- cash
+- 10% AMDL (2x AMD) — overnight
+- 10% METU (2x META) — overnight
+- 10% AMZU (2x AMZN) — overnight
+- 10% MSFU (2x MSFT) — overnight
+- 10% PLTU (2x PLTR) — overnight
 
 **LegM** — Leg M' 100% (blind-passed)
-- cash
+- 20% AMDL (2x AMD) — overnight
+- 20% METU (2x META) — overnight
+- 20% AMZU (2x AMZN) — overnight
+- 20% MSFU (2x MSFT) — overnight
+- 20% PLTU (2x PLTR) — overnight
 
 **V6A** — V6, Leg M' picks only if m250 > 10 bp (round 13, forward test)
-- cash
+- 10% AMDL (2x AMD) — overnight
 
 **LegMA** — Leg M' 100%, picks only if m250 > 10 bp (round 13, forward test)
-- cash
+- 20% AMDL (2x AMD) — overnight
 
 **V8** — 50%: best 2 of 8 liquid 3x funds by m250 + 50% LegMA (round 15, forward test)
-- cash
+- 25% TECL (3x XLK) — overnight
+- 25% UDOW (3x DIA) — overnight
+- 10% AMDL (2x AMD) — overnight
 
 **V7** — Leg M', trend sleeve when idle (withdrawn, comparison)
-- trend SPY: exposure +16% of capital (long via UPRO / short via SPXU; divide by fund leverage) — hold
-- trend QQQ: exposure +10% of capital (long via TQQQ / short via SQQQ; divide by fund leverage) — hold
-- trend IWM: exposure +14% of capital (long via TNA / short via TZA; divide by fund leverage) — hold
-- trend TLT: exposure -20% of capital (long via TMF / short via TMV; divide by fund leverage) — hold
-- trend IEF: exposure -38% of capital (long via TYD / short via TYO; divide by fund leverage) — hold
-- trend GLD: exposure +9% of capital (long via UGL / short via GLL; divide by fund leverage) — hold
-- trend SLV: exposure +5% of capital (long via AGQ / short via ZSL; divide by fund leverage) — hold
-- trend DBC: exposure +12% of capital (long via DBC / short via -; divide by fund leverage) — hold
-- trend USO: exposure +5% of capital (long via UCO / short via SCO; divide by fund leverage) — hold
-- trend UUP: exposure +45% of capital (long via UUP / short via UDN; divide by fund leverage) — hold
-- trend EFA: exposure +17% of capital (long via EFA / short via EFZ; divide by fund leverage) — hold
-- trend EEM: exposure +9% of capital (long via EDC / short via EDZ; divide by fund leverage) — hold
-- trend VNQ: exposure +15% of capital (long via DRN / short via DRV; divide by fund leverage) — hold
-- trend FXE: exposure -48% of capital (long via ULE / short via EUO; divide by fund leverage) — hold
-- trend FXY: exposure -28% of capital (long via YCL / short via YCS; divide by fund leverage) — hold
-- trend XLE: exposure +9% of capital (long via ERX / short via ERY; divide by fund leverage) — hold
+- 20% AMDL (2x AMD) — overnight
+- 20% METU (2x META) — overnight
+- 20% AMZU (2x AMZN) — overnight
+- 20% MSFU (2x MSFT) — overnight
+- 20% PLTU (2x PLTR) — overnight
 
-SOXX above 200-day MA: **False**. Leg M' picks: **none (cash)**
+SOXX above 200-day MA: **False**. Leg M' picks: **AMD, META, AMZN, MSFT, PLTR**
 
 ### Leg M' ranking (top-20 by 20-day dollar volume)
 
 ```
-Empty DataFrame
-Columns: [dv20_$M, above200, m250_bp]
-Index: []
+       dv20_$M  above200  m250_bp
+NVDA   27696.2     False     15.7
+MU     26062.4     False     45.2
+AAPL   17137.3      True     -0.6
+META   16191.7      True      7.6
+SPCX   16005.9     False      NaN
+TSLA   15385.3     False     -5.8
+AMD    14799.6      True     19.5
+MSFT   13819.7      True      3.7
+SNDK   12660.1     False     44.7
+AMZN   12621.0      True      7.0
+GOOGL  12102.9     False      0.6
+INTC   11019.2     False     20.8
+AVGO    8130.5     False     18.0
+GOOG    7981.8     False     -1.9
+TSM     6089.1     False     21.8
+MRVL    5745.4     False     39.7
+ORCL    5617.5     False     -0.1
+LITE    4939.4     False     47.9
+PLTR    4882.3      True      2.6
+NBIS    4118.5     False     32.1
 ```
 
 ## Performance since start (model = synthetic leverage as in backtests; real = actual funds)
 
 | strategy | nights | model | real | last 5 real |
 |---|---|---|---|---|
-| V6 | 19 | -25.9% | -24.5% | -10.1 +1.5 +0.2 +0.0 +0.0 |
-| LegM | 20 | -8.3% | -4.4% | +0.0 +0.4 +0.0 +0.0 +0.0 |
-| V6A | 19 | -25.3% | -23.8% | -10.1 +1.5 +1.1 +0.0 +0.0 |
-| LegMA | 20 | -6.8% | -2.6% | +0.0 +2.2 +0.0 +0.0 +0.0 |
-| V8 | 20 | -4.3% | -2.2% | +0.0 +1.2 +0.0 +0.0 +0.0 |
-| V7 | 19 | -15.5% | -11.9% | -1.8 -0.9 +0.4 +0.3 -4.2 |
+| V6 | 21 | -19.5% | -17.2% | +0.2 +0.0 +0.0 +9.7 +0.0 |
+| LegM | 21 | -8.3% | -4.4% | +0.4 +0.0 +0.0 +0.0 +0.0 |
+| V6A | 21 | -18.8% | -16.4% | +1.1 +0.0 +0.0 +9.7 +0.0 |
+| LegMA | 21 | -6.8% | -2.6% | +2.2 +0.0 +0.0 +0.0 +0.0 |
+| V8 | 21 | -4.3% | -2.2% | +1.2 +0.0 +0.0 +0.0 +0.0 |
+| V7 | 21 | -13.4% | -9.7% | +0.4 +0.3 -4.2 +1.1 +1.4 |

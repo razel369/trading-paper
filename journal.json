@@ -4183,7 +4183,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-06",
+   "model": 0.086843,
+   "instr": 0.096643
+  }
  },
  {
   "strategy": "LegM",
@@ -4207,7 +4211,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-06",
+   "model": 0.086843,
+   "instr": 0.096643
+  }
  },
  {
   "strategy": "LegMA",
@@ -4346,37 +4354,61 @@
     "kind": "cc"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-06",
+   "model": 0.010901,
+   "instr": 0.010901
+  }
  },
  {
   "strategy": "V6",
   "date": "2026-11-06",
   "pos": [],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-09",
+   "model": 0.0,
+   "instr": 0.0
+  }
  },
  {
   "strategy": "LegM",
   "date": "2026-11-06",
   "pos": [],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-09",
+   "model": 0.0,
+   "instr": 0.0
+  }
  },
  {
   "strategy": "V6A",
   "date": "2026-11-06",
   "pos": [],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-09",
+   "model": 0.0,
+   "instr": 0.0
+  }
  },
  {
   "strategy": "LegMA",
   "date": "2026-11-06",
   "pos": [],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-09",
+   "model": 0.0,
+   "instr": 0.0
+  }
  },
  {
   "strategy": "V8",
   "date": "2026-11-06",
   "pos": [],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-09",
+   "model": 0.0,
+   "instr": 0.0
+  }
  },
  {
   "strategy": "V7",
@@ -4493,6 +4525,192 @@
     "w": 0.0915,
     "lev": 1,
     "kind": "cc"
+   }
+  ],
+  "result": {
+   "exit_date": "2026-11-09",
+   "model": 0.013943,
+   "instr": 0.013943
+  }
+ },
+ {
+  "strategy": "V6",
+  "date": "2026-11-09",
+  "pos": [
+   {
+    "und": "AMD",
+    "instr": "AMDL",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "META",
+    "instr": "METU",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "AMZN",
+    "instr": "AMZU",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MSFT",
+    "instr": "MSFU",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "PLTR",
+    "instr": "PLTU",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "LegM",
+  "date": "2026-11-09",
+  "pos": [
+   {
+    "und": "AMD",
+    "instr": "AMDL",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "META",
+    "instr": "METU",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "AMZN",
+    "instr": "AMZU",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MSFT",
+    "instr": "MSFU",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "PLTR",
+    "instr": "PLTU",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "V6A",
+  "date": "2026-11-09",
+  "pos": [
+   {
+    "und": "AMD",
+    "instr": "AMDL",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "LegMA",
+  "date": "2026-11-09",
+  "pos": [
+   {
+    "und": "AMD",
+    "instr": "AMDL",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "V8",
+  "date": "2026-11-09",
+  "pos": [
+   {
+    "und": "XLK",
+    "instr": "TECL",
+    "w": 0.25,
+    "lev": 3,
+    "kind": "on"
+   },
+   {
+    "und": "DIA",
+    "instr": "UDOW",
+    "w": 0.25,
+    "lev": 3,
+    "kind": "on"
+   },
+   {
+    "und": "AMD",
+    "instr": "AMDL",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "V7",
+  "date": "2026-11-09",
+  "pos": [
+   {
+    "und": "AMD",
+    "instr": "AMDL",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "META",
+    "instr": "METU",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "AMZN",
+    "instr": "AMZU",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MSFT",
+    "instr": "MSFU",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "PLTR",
+    "instr": "PLTU",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
    }
   ],
   "result": null
