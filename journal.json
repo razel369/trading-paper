@@ -4573,7 +4573,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-10",
+   "model": -0.006117,
+   "instr": -0.006795
+  }
  },
  {
   "strategy": "LegM",
@@ -4615,7 +4619,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-10",
+   "model": -0.012233,
+   "instr": -0.013589
+  }
  },
  {
   "strategy": "V6A",
@@ -4629,7 +4637,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-10",
+   "model": -0.002327,
+   "instr": -0.002417
+  }
  },
  {
   "strategy": "LegMA",
@@ -4643,7 +4655,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-10",
+   "model": -0.004654,
+   "instr": -0.004835
+  }
  },
  {
   "strategy": "V8",
@@ -4671,7 +4687,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-10",
+   "model": -0.01486,
+   "instr": -0.014629
+  }
  },
  {
   "strategy": "V7",
@@ -4713,41 +4733,214 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-10",
+   "model": -0.012233,
+   "instr": -0.013589
+  }
  },
  {
   "strategy": "V6",
   "date": "2026-11-10",
   "pos": [],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-11",
+   "model": 0.0,
+   "instr": 0.0
+  }
  },
  {
   "strategy": "LegM",
   "date": "2026-11-10",
   "pos": [],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-11",
+   "model": 0.0,
+   "instr": 0.0
+  }
  },
  {
   "strategy": "V6A",
   "date": "2026-11-10",
   "pos": [],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-11",
+   "model": 0.0,
+   "instr": 0.0
+  }
  },
  {
   "strategy": "LegMA",
   "date": "2026-11-10",
   "pos": [],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-11",
+   "model": 0.0,
+   "instr": 0.0
+  }
  },
  {
   "strategy": "V8",
   "date": "2026-11-10",
   "pos": [],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-11",
+   "model": 0.0,
+   "instr": 0.0
+  }
  },
  {
   "strategy": "V7",
   "date": "2026-11-10",
+  "pos": [
+   {
+    "und": "SPY",
+    "instr": "SPY",
+    "w": 0.1604,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "QQQ",
+    "instr": "QQQ",
+    "w": 0.1003,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "IWM",
+    "instr": "IWM",
+    "w": 0.1356,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "TLT",
+    "instr": "TLT",
+    "w": -0.2024,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "IEF",
+    "instr": "IEF",
+    "w": -0.3771,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "GLD",
+    "instr": "GLD",
+    "w": 0.0905,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "SLV",
+    "instr": "SLV",
+    "w": 0.0543,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "DBC",
+    "instr": "DBC",
+    "w": 0.1177,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "USO",
+    "instr": "USO",
+    "w": 0.0517,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "UUP",
+    "instr": "UUP",
+    "w": 0.4535,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "EFA",
+    "instr": "EFA",
+    "w": 0.1656,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "EEM",
+    "instr": "EEM",
+    "w": 0.0943,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "VNQ",
+    "instr": "VNQ",
+    "w": 0.1488,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "FXE",
+    "instr": "FXE",
+    "w": -0.478,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "FXY",
+    "instr": "FXY",
+    "w": -0.2783,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "XLE",
+    "instr": "XLE",
+    "w": 0.0915,
+    "lev": 1,
+    "kind": "cc"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "V6",
+  "date": "2026-11-11",
+  "pos": [],
+  "result": null
+ },
+ {
+  "strategy": "LegM",
+  "date": "2026-11-11",
+  "pos": [],
+  "result": null
+ },
+ {
+  "strategy": "V6A",
+  "date": "2026-11-11",
+  "pos": [],
+  "result": null
+ },
+ {
+  "strategy": "LegMA",
+  "date": "2026-11-11",
+  "pos": [],
+  "result": null
+ },
+ {
+  "strategy": "V8",
+  "date": "2026-11-11",
+  "pos": [],
+  "result": null
+ },
+ {
+  "strategy": "V7",
+  "date": "2026-11-11",
   "pos": [
    {
     "und": "SPY",
