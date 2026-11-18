@@ -1,5 +1,5 @@
-# Paper trading — signal for the close of 2026-11-16
-_Generated 2026-11-16 23:10 New York time. Research only, not investment advice._
+# Paper trading — signal for the close of 2026-11-17
+_Generated 2026-11-17 22:07 New York time. Research only, not investment advice._
 
 ## Tonight's orders (buy MOC at the close, sell overnight legs MOO at the next open)
 
@@ -44,35 +44,35 @@ SOXX above 200-day MA: **False**. Leg M' picks: **LLY, AMD, AMZN, PLTR, MSFT**
 
 ```
        dv20_$M  above200  m250_bp
-NVDA   40055.1     False     12.8
-MU     24749.7     False     43.4
-AMD    18004.1      True     19.6
-AAPL   16521.6      True      1.0
-SPCX   16297.0     False      NaN
-TSLA   14958.0     False     -3.2
-META   14879.8     False      8.1
-MSFT   14219.9      True      4.1
-AMZN   12696.2      True      7.9
-SNDK   12483.8     False     43.9
-GOOGL  12275.3     False      2.0
-INTC    9881.5     False     20.0
-AVGO    8984.2     False     19.6
-GOOG    7977.8     False     -0.5
-TSM     5890.4     False     21.8
-MRVL    5430.3     False     38.6
-ORCL    5282.0     False      2.2
-LITE    4531.3     False     45.0
-PLTR    4334.9      True      5.8
-LLY     4179.5      True     22.8
+NVDA   42310.9     False     13.7
+MU     25027.9     False     44.8
+AMD    18530.2      True     20.9
+AAPL   16647.2      True      0.7
+SPCX   16059.4     False      NaN
+TSLA   14780.1     False     -2.5
+META   14688.7     False      8.6
+MSFT   14539.3      True      4.8
+AMZN   12736.4      True      8.7
+SNDK   12656.3     False     45.3
+GOOGL  12413.5     False      1.6
+INTC    9789.9     False     20.3
+AVGO    9178.5     False     19.8
+GOOG    8012.6     False     -0.9
+TSM     6076.9     False     22.3
+MRVL    5441.6     False     41.3
+ORCL    5254.2     False      2.9
+LITE    4479.1     False     46.0
+PLTR    4327.0      True      6.4
+LLY     4176.3      True     22.7
 ```
 
 ## Performance since start (model = synthetic leverage as in backtests; real = actual funds)
 
 | strategy | nights | model | real | last 5 real |
 |---|---|---|---|---|
-| V6 | 26 | -21.9% | -19.8% | -0.7 +0.0 +0.0 +0.0 -2.5 |
-| LegM | 26 | -13.9% | -10.3% | -1.4 +0.0 +0.0 +0.0 -4.9 |
-| V6A | 26 | -20.8% | -18.4% | -0.2 +0.0 +0.0 +0.0 -2.2 |
-| LegMA | 26 | -11.2% | -7.3% | -0.5 +0.0 +0.0 +0.0 -4.3 |
-| V8 | 26 | -8.2% | -6.3% | -1.5 +0.0 +0.0 +0.0 -2.7 |
-| V7 | 26 | -17.1% | -13.6% | -1.4 +1.8 +0.1 +0.0 -4.9 |
+| V6 | 27 | -22.0% | -19.8% | +0.0 +0.0 +0.0 -2.5 -0.1 |
+| LegM | 27 | -14.1% | -10.5% | +0.0 +0.0 +0.0 -4.9 -0.1 |
+| V6A | 27 | -20.7% | -18.4% | +0.0 +0.0 +0.0 -2.2 +0.0 |
+| LegMA | 27 | -11.1% | -7.3% | +0.0 +0.0 +0.0 -4.3 +0.1 |
+| V8 | 27 | -8.9% | -7.0% | +0.0 +0.0 +0.0 -2.7 -0.8 |
+| V7 | 27 | -17.2% | -13.8% | +1.8 +0.1 +0.0 -4.9 -0.1 |
