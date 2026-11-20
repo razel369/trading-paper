@@ -6063,7 +6063,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-19",
+   "model": 0.002497,
+   "instr": 0.001202
+  }
  },
  {
   "strategy": "LegMA",
@@ -6084,7 +6088,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-19",
+   "model": 0.004993,
+   "instr": 0.002405
+  }
  },
  {
   "strategy": "V8",
@@ -6119,7 +6127,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-19",
+   "model": 0.010881,
+   "instr": 0.009245
+  }
  },
  {
   "strategy": "V7",
@@ -6156,6 +6168,209 @@
    {
     "und": "MSFT",
     "instr": "MSFU",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "V6",
+  "date": "2026-11-19",
+  "pos": [
+   {
+    "und": "LLY",
+    "instr": "LLYX",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "AMD",
+    "instr": "AMDL",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "AMZN",
+    "instr": "AMZU",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MSFT",
+    "instr": "MSFU",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "V",
+    "instr": "V",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "LegM",
+  "date": "2026-11-19",
+  "pos": [
+   {
+    "und": "LLY",
+    "instr": "LLYX",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "AMD",
+    "instr": "AMDL",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "AMZN",
+    "instr": "AMZU",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MSFT",
+    "instr": "MSFU",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "V",
+    "instr": "V",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "V6A",
+  "date": "2026-11-19",
+  "pos": [
+   {
+    "und": "LLY",
+    "instr": "LLYX",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "AMD",
+    "instr": "AMDL",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "LegMA",
+  "date": "2026-11-19",
+  "pos": [
+   {
+    "und": "LLY",
+    "instr": "LLYX",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "AMD",
+    "instr": "AMDL",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "V8",
+  "date": "2026-11-19",
+  "pos": [
+   {
+    "und": "XLF",
+    "instr": "FAS",
+    "w": 0.25,
+    "lev": 3,
+    "kind": "on"
+   },
+   {
+    "und": "XBI",
+    "instr": "LABU",
+    "w": 0.25,
+    "lev": 3,
+    "kind": "on"
+   },
+   {
+    "und": "LLY",
+    "instr": "LLYX",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "AMD",
+    "instr": "AMDL",
+    "w": 0.1,
+    "lev": 2,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "V7",
+  "date": "2026-11-19",
+  "pos": [
+   {
+    "und": "LLY",
+    "instr": "LLYX",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "AMD",
+    "instr": "AMDL",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "AMZN",
+    "instr": "AMZU",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "MSFT",
+    "instr": "MSFU",
+    "w": 0.2,
+    "lev": 2,
+    "kind": "on"
+   },
+   {
+    "und": "V",
+    "instr": "V",
     "w": 0.2,
     "lev": 2,
     "kind": "on"
