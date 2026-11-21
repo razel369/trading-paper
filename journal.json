@@ -6000,7 +6000,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-19",
+   "model": 0.015803,
+   "instr": 0.014917
+  }
  },
  {
   "strategy": "LegM",
@@ -6042,7 +6046,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-19",
+   "model": 0.031605,
+   "instr": 0.029834
+  }
  },
  {
   "strategy": "V6A",
@@ -6173,7 +6181,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-19",
+   "model": 0.031605,
+   "instr": 0.029834
+  }
  },
  {
   "strategy": "V6",
@@ -6215,7 +6227,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-20",
+   "model": -0.009943,
+   "instr": -0.011344
+  }
  },
  {
   "strategy": "LegM",
@@ -6257,7 +6273,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-20",
+   "model": -0.019886,
+   "instr": -0.022689
+  }
  },
  {
   "strategy": "V6A",
@@ -6278,7 +6298,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-20",
+   "model": -0.005579,
+   "instr": -0.006333
+  }
  },
  {
   "strategy": "LegMA",
@@ -6299,7 +6323,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-20",
+   "model": -0.011159,
+   "instr": -0.012666
+  }
  },
  {
   "strategy": "V8",
@@ -6334,7 +6362,11 @@
     "kind": "on"
    }
   ],
-  "result": null
+  "result": {
+   "exit_date": "2026-11-20",
+   "model": -0.010952,
+   "instr": -0.012914
+  }
  },
  {
   "strategy": "V7",
@@ -6374,6 +6406,167 @@
     "w": 0.2,
     "lev": 2,
     "kind": "on"
+   }
+  ],
+  "result": {
+   "exit_date": "2026-11-20",
+   "model": -0.019886,
+   "instr": -0.022689
+  }
+ },
+ {
+  "strategy": "V6",
+  "date": "2026-11-20",
+  "pos": [],
+  "result": null
+ },
+ {
+  "strategy": "LegM",
+  "date": "2026-11-20",
+  "pos": [],
+  "result": null
+ },
+ {
+  "strategy": "V6A",
+  "date": "2026-11-20",
+  "pos": [],
+  "result": null
+ },
+ {
+  "strategy": "LegMA",
+  "date": "2026-11-20",
+  "pos": [],
+  "result": null
+ },
+ {
+  "strategy": "V8",
+  "date": "2026-11-20",
+  "pos": [
+   {
+    "und": "XLF",
+    "instr": "FAS",
+    "w": 0.25,
+    "lev": 3,
+    "kind": "on"
+   }
+  ],
+  "result": null
+ },
+ {
+  "strategy": "V7",
+  "date": "2026-11-20",
+  "pos": [
+   {
+    "und": "SPY",
+    "instr": "SPY",
+    "w": 0.1373,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "QQQ",
+    "instr": "QQQ",
+    "w": 0.088,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "IWM",
+    "instr": "IWM",
+    "w": 0.1225,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "TLT",
+    "instr": "TLT",
+    "w": -0.2167,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "IEF",
+    "instr": "IEF",
+    "w": -0.3719,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "GLD",
+    "instr": "GLD",
+    "w": -0.094,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "SLV",
+    "instr": "SLV",
+    "w": -0.0561,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "DBC",
+    "instr": "DBC",
+    "w": 0.1254,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "USO",
+    "instr": "USO",
+    "w": 0.0551,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "UUP",
+    "instr": "UUP",
+    "w": 0.4703,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "EFA",
+    "instr": "EFA",
+    "w": 0.1467,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "EEM",
+    "instr": "EEM",
+    "w": 0.0885,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "VNQ",
+    "instr": "VNQ",
+    "w": 0.1523,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "FXE",
+    "instr": "FXE",
+    "w": -0.4875,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "FXY",
+    "instr": "FXY",
+    "w": -0.2932,
+    "lev": 1,
+    "kind": "cc"
+   },
+   {
+    "und": "XLE",
+    "instr": "XLE",
+    "w": 0.0944,
+    "lev": 1,
+    "kind": "cc"
    }
   ],
   "result": null
